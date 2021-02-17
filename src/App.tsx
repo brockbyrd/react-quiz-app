@@ -1,6 +1,19 @@
 import React from 'react';
 
-function App() {
+const App = () => {
+
+  const startQuiz = async () => {
+
+  }
+
+  const checkAnswer = (e: React.MouseEvent<HTMLButtonElement>) => {
+
+  }
+
+  const nextQuestion = () => {
+
+  }
+
   return (
     <div className="App">
       Quiz
