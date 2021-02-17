@@ -57,7 +57,14 @@ const App = () => {
   };
 
   const nextQuestion = () => {
+    // move to next question if not last question
+    const nextQuestion = number + 1;
 
+    if (nextQuestion === TOTAL_QUESTIONS){
+      setGameOver(true);
+    } else {
+      setNumber(nextQuestion);
+    }
   };
 
   return (
